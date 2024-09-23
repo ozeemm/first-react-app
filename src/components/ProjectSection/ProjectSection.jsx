@@ -1,5 +1,7 @@
 import './ProjectSection.css'
 
+import githubImg from './img/gitHub-black.svg'
+
 function ProjectSection(props){
     return(
         <main className="section">
@@ -15,7 +17,7 @@ function ProjectSection(props){
                     </div>
 
                     <a href="https://github.com/" className="btn-outline">
-                        <img src="./img/icons/gitHub-black.svg" alt=""/>
+                        <img src={githubImg} alt=""/>
                         GitHub repo
                     </a>
 
