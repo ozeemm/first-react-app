@@ -1,7 +1,7 @@
 import './Navigation.css'
 
-import SunImg from '../../img/icons/sun.svg'
-import MoonImg from '../../img/icons/moon.svg'
+import SunImg from './img/sun.svg'
+import MoonImg from './img/moon.svg'
 
 function Navigation(){
     return(

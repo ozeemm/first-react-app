@@ -1,9 +1,10 @@
 import './Footer.css'
-import vkLogoImg from '../../img/icons/vk.svg'
-import instLogoImg from '../../img/icons/instagram.svg'
-import twitterLogoImg from '../../img/icons/twitter.svg'
-import githubLogoImg from '../../img/icons/gitHub.svg'
-import linkedInLogoImg from '../../img/icons/linkedIn.svg'
+
+import vkLogoImg from './img/vk.svg'
+import instLogoImg from './img/instagram.svg'
+import twitterLogoImg from './img/twitter.svg'
+import githubLogoImg from './img/gitHub.svg'
+import linkedInLogoImg from './img/linkedIn.svg'
 
 
 function Footer(){
