@@ -1,16 +1,10 @@
-import Navigation from "../components/Navigation/Navigation"
 import ProjectSection from "../components/ProjectSection/ProjectSection"
-import Footer from "../components/Footer/Footer"
 
 import projectImg from "../img/projects/01-big.jpg"
 
-function Project({title}){
+function Project(){
     return(
-        <div className="App">
-            <Navigation/>
-            <ProjectSection title={title} imgSrc={projectImg}/>
-            <Footer/>
-        </div>
+        <ProjectSection title="Тут про проект" imgSrc={projectImg}/>
     );
 }
 
