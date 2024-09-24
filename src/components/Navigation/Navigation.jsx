@@ -1,9 +1,7 @@
 import { NavLink } from 'react-router-dom'
 
 import './Navigation.css'
-
-import SunImg from './img/sun.svg'
-import MoonImg from './img/moon.svg'
+import DarkModeButton from "../DarkModeButton/DarkModeButton"
 
 function Navigation(){
     const normalLink = "nav-list__link"
@@ -17,10 +15,7 @@ function Navigation(){
                         <strong>Freelancer</strong> portfolio
                     </NavLink>
 
-                    <button className="dark-mode-btn">
-                        <img src={SunImg} alt="Light mode" className="dark-mode-btn__icon"/>
-                        <img src={MoonImg} alt="Dark mode" className="dark-mode-btn__icon"/>
-                    </button>
+                    <DarkModeButton/>
 
                     <ul className="nav-list">
                         <li className="nav-list__item">
