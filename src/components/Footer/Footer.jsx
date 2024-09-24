@@ -6,7 +6,6 @@ import twitterLogoImg from './img/twitter.svg'
 import githubLogoImg from './img/gitHub.svg'
 import linkedInLogoImg from './img/linkedIn.svg'
 
-
 function Footer(){
     return(
         <footer className="footer">
