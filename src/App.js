@@ -1,19 +1,23 @@
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
 import "./styles/main.css"
 
-import Project from "./pages/Project"
-import Contacts from "./pages/Contacts"
 import Start from "./pages/Start"
+import Contacts from "./pages/Contacts"
 import Projects from "./pages/Projects"
-
-import project1Img from './img/projects/01-big.jpg'
-import project2Img from './img/projects/02-big.jpg'
+import Project from "./pages/Project"
 
 function App() {
-    //return Start()
-    //return Contacts()
-    //return(Projects)
-    //return Project("name1", project1Img)
-    //return Project("name2", project2Img)
+    return(
+    <Router>
+        <Routes>
+            <Route path="/" element={<Start/>}/>
+            <Route path="/contacts" element={<Contacts/>}/>
+            <Route path="/projects" element={<Projects/>}/>
+            <Route path="/project/:id" element={<Project title="Тут про проект"/>}/>
+        </Routes>
+    </Router>
+    );
 }
 
 export default App;

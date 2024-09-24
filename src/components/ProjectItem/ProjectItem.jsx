@@ -1,12 +1,14 @@
+import { NavLink } from 'react-router-dom';
 import './ProjectItem.css'
 
-function ProjectItem({title, imgSrc}){
+function ProjectItem({title, imgSrc, to}){
     return(
         <li className="project">
-            <a href="./project-page.html">
+
+            <NavLink to={to}>
                 <img src={imgSrc} alt="Project img" className="project__img"/>
                 <h3 className="project__title">{title}</h3>
-            </a>
+            </NavLink>
         </li>
     );
 }

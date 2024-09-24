@@ -14,12 +14,12 @@ function ProjectsSection(){
             <div className="container">
                 <h2 className="title-1">Projects</h2>
                 <ul className="projects">
-                    <ProjectItem title="Gaming streaming portal" imgSrc={img1}/>
-                    <ProjectItem title="Video service" imgSrc={img2}/>
-                    <ProjectItem title="Video portal" imgSrc={img3}/>
-                    <ProjectItem title="Dating app" imgSrc={img4}/>
-                    <ProjectItem title="Landing" imgSrc={img5}/>
-                    <ProjectItem title="Gaming community" imgSrc={img6}/>
+                    <ProjectItem to="/project/1" title="Gaming streaming portal" imgSrc={img1}/>
+                    <ProjectItem to="/project/2" title="Video service" imgSrc={img2}/>
+                    <ProjectItem to="/project/3" title="Video portal" imgSrc={img3}/>
+                    <ProjectItem to="/project/4" title="Dating app" imgSrc={img4}/>
+                    <ProjectItem to="/project/5" title="Landing" imgSrc={img5}/>
+                    <ProjectItem to="/project/6" title="Gaming community" imgSrc={img6}/>
                 </ul>
             </div>
         </main>
