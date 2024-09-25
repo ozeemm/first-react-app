@@ -2,7 +2,7 @@ import './ProjectSection.css'
 
 import githubImg from './img/gitHub-black.svg'
 
-function ProjectSection({title, imgSrc}){
+function ProjectSection({title, imgSrc, skills, gitHubSrc}){
     return(
         <main className="section">
             <div className="container">
@@ -13,10 +13,10 @@ function ProjectSection({title, imgSrc}){
                     <img src={imgSrc} alt="" className="project-details__cover"/>
 
                     <div className="project-details__desc">
-                        <p>Skills: React, Node.js, MongoDB</p>
+                        <p>Skills: {skills}</p>
                     </div>
 
-                    <a href="https://github.com/" className="btn-outline">
+                    <a href={gitHubSrc} className="btn-outline">
                         <img src={githubImg} alt=""/>
                         GitHub repo
                     </a>
