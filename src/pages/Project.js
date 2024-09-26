@@ -1,11 +1,15 @@
+import { useParams } from "react-router-dom";
 import ProjectSection from "../components/ProjectSection/ProjectSection"
-
-import projectImg from "../img/projects/01-big.jpg"
+import { projectsData } from "../components/ProjectsSection/ProjectsData"
 
 function Project(){
+    let { id } = useParams()
+
+    const projectData = projectsData[id-1]
+
     return(
-        <ProjectSection title="Тут про проект" skills="React, Node.js, MongoDB" 
-                        imgSrc={projectImg} gitHubSrc="https://github.com"/>
+        <ProjectSection title={projectData["title"]} skills={projectData["skills"]} 
+                        imgSrc={projectData["imgSrc"]} gitHubSrc={projectData["gitHubSrc"] ? projectData["gitHubSrc"] : "#!"}/>
     );
 }
 
