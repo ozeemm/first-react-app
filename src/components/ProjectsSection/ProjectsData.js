@@ -18,7 +18,7 @@ export const projectsData = [
         "skills": "React, Node.js, MongoDB",
         "smallImg": project1Img_small,
         "bigImg": project1Img_big,
-        "gitHubSrc": "https://github.com/"
+        "gitHub": "https://github.com/"
     },
     {
         "title": "Video service",
@@ -49,5 +49,5 @@ export const projectsData = [
         "skills": "React, Node.js, MongoDB",
         "smallImg": project6Img_small,
         "bigImg": project6Img_big,
-    },
+    }
 ]

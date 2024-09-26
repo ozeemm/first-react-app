@@ -11,7 +11,7 @@ function Project(){
         <ProjectSection title={projectData["title"]} 
                         skills={projectData["skills"]} 
                         imgSrc={projectData["bigImg"]} 
-                        gitHubSrc={projectData["gitHubSrc"] ? projectData["gitHubSrc"] : "#!"}/>
+                        gitHubSrc={projectData["gitHub"] ? projectData["gitHub"] : "#!"}/>
     );
 }
 
