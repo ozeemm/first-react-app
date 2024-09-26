@@ -8,8 +8,10 @@ function Project(){
     const projectData = projectsData[id-1]
 
     return(
-        <ProjectSection title={projectData["title"]} skills={projectData["skills"]} 
-                        imgSrc={projectData["imgSrc"]} gitHubSrc={projectData["gitHubSrc"] ? projectData["gitHubSrc"] : "#!"}/>
+        <ProjectSection title={projectData["title"]} 
+                        skills={projectData["skills"]} 
+                        imgSrc={projectData["bigImg"]} 
+                        gitHubSrc={projectData["gitHubSrc"] ? projectData["gitHubSrc"] : "#!"}/>
     );
 }
 
