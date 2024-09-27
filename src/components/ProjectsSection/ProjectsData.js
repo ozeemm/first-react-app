@@ -12,6 +12,8 @@ import project4Img_small from './img/04.jpg'
 import project5Img_small from './img/05.jpg'
 import project6Img_small from './img/06.jpg'
 
+import myAppImg from './img/my-app.gif'
+
 export const projectsData = [
     {
         "title": "Gaming streaming portal",
@@ -49,5 +51,12 @@ export const projectsData = [
         "skills": "React, Node.js, MongoDB",
         "smallImg": project6Img_small,
         "bigImg": project6Img_big,
+    },
+    {
+        "title": "Portfolio page",
+        "skills": "React",
+        "smallImg": myAppImg, // TODO - gif
+        "bigImg": myAppImg, // TODO - gif
+        "gitHub": "https://github.com/ozeemm/first-react-app"
     }
 ]
